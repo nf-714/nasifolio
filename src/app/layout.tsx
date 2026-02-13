@@ -3,22 +3,14 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
+import { GeistPixelSquare } from 'geist/font/pixel';
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
+import "./globals.css";
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  weight: ["400", "500", "600", "700"],
-});
-
-const geistMono = Geist_Mono({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-mono",
-});
+// Geist fonts are pre-configured, no need to call them as functions
+const geistPixel = GeistPixelSquare;
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
@@ -66,8 +58,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
-          geist.variable,
-          geistMono.variable
+          geistPixel.className
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
@@ -78,8 +69,8 @@ export default function RootLayout({
                 squareSize={2}
                 gridGap={2}
                 style={{
-                  maskImage: "linear-gradient(to bottom, black, transparent)",
-                  WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
+                  maskImage: "linear-gradient(to bottom, blue, transparent)",
+                  WebkitMaskImage: "linear-gradient(to bottom, blue, transparent)",
                 }}
               />
             </div>
