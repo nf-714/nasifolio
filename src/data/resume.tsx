@@ -88,7 +88,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Marketing Executive",
-      logoUrl: "/tork.svg",
+      logoUrl: "/thetork.svg",
       start: "September 2025",
       end: "Ongoing",
       description:
