@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import { GeistPixelSquare } from 'geist/font/pixel';
+import GeistPixelSquare from 'geist/font/pixel';
 import type { Metadata } from "next";
 
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
