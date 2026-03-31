@@ -20,7 +20,7 @@ export const DATA = {
     "Product Engineer with a background in marketing and supply chain, focused on building reliable products and improving go-to-market and distribution strategy.",
   summary:
     "Product-minded builder bridging design, engineering, and business strategy. Currently developing full-stack landing pages and e-commerce solutions at Buildora Studio while shaping content and go-to-market strategies at The Tork. Combining hands-on technical development with supply chain and operations knowledge from University of Liberal Arts Bangladesh. Passionate about user-centered design, growth marketing, and building products that solve real problems through the intersection of engineering, design thinking, and data-driven decision making.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQGaNYvWSh-yqA/profile-displayphoto-scale_400_400/B56ZrKs.SoK4Ak-/0/1764337383649?e=1772668800&v=beta&t=DRxKfMeLRtQXQGfpdeiZ17wlp_W-Oi6PQYr3KzwVpgQ",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQEh8tQeqgHreA/profile-displayphoto-scale_400_400/B56ZyzF4SkHQAg-/0/1772531191375?e=1776297600&v=beta&t=1YnHcayGpSBO5NxrQT-Rf7XZdWjNrcXf4p5ljX8oJYE",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
